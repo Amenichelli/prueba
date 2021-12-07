@@ -1,0 +1,34 @@
+/* Mixin */
+@mixin prefijos($transformaciones) {
+    -webkit-transform: $transformaciones;
+    -o-transform: $transformaciones;
+    -moz-transform: $transformaciones;
+    transform: $transformaciones;
+}
+
+.animaciones {
+    @include prefijos(translate(50%));
+}
+
+.animaciones-dos {
+    @include prefijos(scale(4));
+}
+
+.animaciones-tres {
+    @include prefijos(translateX(20px))
+}
+
+@mixin varios-parametros($ancho, $alto, $display) {
+    width: $ancho;
+    height: $alto;
+    display: $display;
+    color: black;
+}
+
+.varios {
+    @include varios-parametros(100%, 20vh, flex);
+}
+
+.varios-dos {
+    @include varios-parametros(50%, 40px, block);
+}

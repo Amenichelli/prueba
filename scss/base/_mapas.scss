@@ -1,0 +1,20 @@
+/* Mapas */
+
+$standard: (
+    /* Key - Valor */
+    color-standard: #ccc,
+    bg-standard: black,
+    border-standard: 1px solid black,
+    font-standard: 44px
+);
+
+
+$premium: (
+    color-premium: #ccc,
+    bg-premium: gold
+);
+
+
+.standard {
+    background-color: map-get($standard, bg-standard);
+}

@@ -1,0 +1,16 @@
+@import '../base/extends';
+
+.error {
+    background-color: red;
+    @extend %botones;
+}
+
+.accept {
+    background-color: green;
+    @extend %botones;
+}
+
+.disabled {
+    background-color: gray;
+    @extend %botones;
+}

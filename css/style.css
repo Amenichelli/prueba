@@ -1,0 +1,148 @@
+/* Variables */
+header {
+  background-color: blue;
+}
+@media screen and (max-width: 978px) {
+  header {
+    background-color: blue;
+  }
+}
+header nav {
+  padding: 20px 0;
+}
+header nav ul li {
+  list-style-type: disc;
+}
+header nav ul li a {
+  text-decoration: none;
+  /* & and */
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.carlos {
+  color: blue;
+}
+
+/* Extends */
+/* Placeholder */
+.disabled, .accept, .error {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.error {
+  background-color: red;
+}
+
+.accept {
+  background-color: green;
+}
+
+.disabled {
+  background-color: gray;
+}
+
+/* Variables */
+/* Listas */
+.button-ok {
+  color: gray;
+}
+
+.button-not {
+  color: black;
+}
+
+.border-menu {
+  border: 1px solid #330000;
+}
+
+.bg-fotos {
+  background-color: #090;
+}
+.bg-fotos:hover {
+  background-color: lime;
+}
+
+#imagenes {
+  color: rgba(153, 0, 0, 0.8);
+}
+
+.section-loca {
+  background-color: #4d4d00;
+}
+
+.saturado {
+  color: #990000;
+}
+
+/* Mapas */
+.standard {
+  background-color: black;
+}
+
+/* Operadores * - + / */
+.seccion-principal {
+  width: 400px;
+}
+.seccion-principal .columna-1 {
+  width: 800px;
+}
+
+/* Extends */
+/* Placeholder */
+.error, .accept, .disabled {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+/* Mixin */
+.animaciones {
+  -webkit-transform: translate(50%);
+  -o-transform: translate(50%);
+  -moz-transform: translate(50%);
+  transform: translate(50%);
+}
+
+.animaciones-dos {
+  -webkit-transform: scale(4);
+  -o-transform: scale(4);
+  -moz-transform: scale(4);
+  transform: scale(4);
+}
+
+.animaciones-tres {
+  -webkit-transform: translateX(20px);
+  -o-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+.varios {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  color: black;
+}
+
+.varios-dos {
+  width: 50%;
+  height: 40px;
+  display: block;
+  color: black;
+}
+
+.bg-condicion {
+  background-color: orange;
+  border: 1px solid black;
+}
+
+.bg-condicion-dos {
+  background-color: blue;
+  border: 2px solid red;
+}
+
+/*# sourceMappingURL=style.css.map */

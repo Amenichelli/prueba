@@ -1,0 +1,11 @@
+/* Operadores * - + / */
+
+$ancho: 400px;
+
+.seccion-principal {
+    width: $ancho;
+
+    .columna-1 {
+        width: $ancho *2;
+    }
+}

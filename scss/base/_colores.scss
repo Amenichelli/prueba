@@ -1,0 +1,27 @@
+$rojo-marca: #900;
+$verder-marca: #090;
+
+.border-menu {
+    border: 1px solid darken($rojo-marca, 20%);
+}
+
+.bg-fotos {
+    background-color: $verder-marca;
+
+    &:hover {
+        background-color: lighten($verder-marca, 20%);
+    }
+}
+
+#imagenes {
+    color: rgba($rojo-marca, 0.8);
+}
+
+.section-loca {
+    background-color: mix($rojo-marca, $verder-marca);
+}
+
+.saturado {
+    color: saturate($rojo-marca, 40%);
+}
+

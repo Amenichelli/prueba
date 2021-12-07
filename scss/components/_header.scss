@@ -1,0 +1,31 @@
+
+@import '../base/variables';
+
+header {
+
+    @media screen and (max-width:978px) {
+        background-color: $bg-header;
+    }
+
+    background-color: blue;
+    nav {
+        padding: 20px 0;
+        ul {
+            li {
+                list-style-type: disc;
+                a {
+                    text-decoration: $enlaces;
+
+                    /* & and */
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.carlos {
+    color: $bg-header;
+}
